@@ -1,0 +1,13 @@
+spring:
+  redis:
+    host: 81.71.161.163
+    password: Du5T2pU5
+    jedis:
+      pool:
+        enabled: true
+        max-active: 30
+        max-idle: 50
+        max-wait: 2000
+    database: 1
+server:
+  port: 8080
